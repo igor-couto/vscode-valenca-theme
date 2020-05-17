@@ -4,7 +4,7 @@
 	"type": "dark",
 	"colors": {
 		//"editor.background": "#1E1E1E",
-		"editor.foreground": "#eeffff",
+		"editor.foreground": "#D4D4D4",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb",
 
@@ -102,7 +102,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#D4D4D4"
 			}
 		},
 		{
@@ -236,9 +236,7 @@
 				"support.constant",
 				"constant.character",
 				"constant.escape",
-				"variable.parameter",
-				"keyword.other.unit",
-				"keyword.other"
+				"variable.parameter"
 			],
 			"settings": {
 				"foreground": "#ff6b6b"
@@ -754,6 +752,15 @@
 			],
 			"settings": {
 				"foreground": "#EEFFFF"
+			}
+		},
+		{
+			"name": "Types",
+			"scope": [
+				"keyword.type"
+			],
+			"settings": {
+				"foreground": "#569CD6"
 			}
 		}
 	]
