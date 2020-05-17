@@ -1,0 +1,37 @@
+{
+    "name": "valenca-theme",
+    "displayName": "Valenca Theme",
+    "description": "An modern dark theme for Visual Studio Code.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Valenca",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Valenca-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/igor-couto/vscode-valenca-theme.git"
+    },
+    "bugs": {
+        "url": "https://github.com/igor-couto/vscode-valenca-theme/issues"
+    },
+    "homepage": "https://github.com/igor-couto/vscode-valenca-theme/README.md",
+    "keywords": [
+        "Vscode",
+        "Theme",
+        "Valenca",
+        "Dark"
+    ],
+    "author": "Igor Couto <igor.fcouto@gmail.com>",
+    "license": "MIT"
+}
