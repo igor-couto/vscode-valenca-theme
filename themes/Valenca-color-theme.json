@@ -3,10 +3,85 @@
 	"author":"igor-couto",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#26ffff",
+		//"editor.background": "#1E1E1E",
 		"editor.foreground": "#eeffff",
 		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"sideBarTitle.foreground": "#bbbbbb",
+
+		//"editor.background":"#282C34",
+		"editor.background":"#202021",
+		// "editor.foreground":"#ABB2BF",
+		// "activityBarBadge.background":"#528BFF",
+
+		"activityBar.background":"#333842",
+		"activityBar.foreground":"#D7DAE0",
+		"activityBarBadge.foreground":"#D7DAE0",
+		"button.background":"#4D78CC",
+		"button.foreground":"#FFFFFF",
+		"button.hoverBackground":"#6087CF",
+		"diffEditor.insertedTextBackground":"#00809B33",
+		"dropdown.background":"#353b45",
+		"dropdown.border":"#181A1F",
+		"editorIndentGuide.activeBackground":"#626772",
+		"editor.lineHighlightBackground":"#99BBFF0A",
+		"editor.selectionBackground":"#3E4451",
+		"editorCursor.foreground":"#528BFF",
+		"editor.findMatchHighlightBackground":"#528BFF3D",
+		"editorGroup.border":"#181A1F",
+		//"editorGroupHeader.tabsBackground":"#21252B",
+		"editorIndentGuide.background":"#ABB2BF26",
+		"editorLineNumber.foreground":"#7c7e80",
+		"editorLineNumber.activeForeground":"#ABB2BF",
+		"editorWhitespace.foreground":"#ABB2BF26",
+		"editorRuler.foreground":"#ABB2BF26",
+		"editorHoverWidget.background":"#21252B",
+		"editorHoverWidget.border":"#181A1F",
+		"editorSuggestWidget.background":"#21252B",
+		"editorSuggestWidget.border":"#181A1F",
+		"editorSuggestWidget.selectedBackground":"#2C313A",
+		//"editorWidget.background":"#21252B",
+		"editorWidget.border":"#3A3F4B",
+		"input.background":"#1B1D23",
+		"input.border":"#181A1F",
+		"focusBorder":"#528BFF",
+		"list.activeSelectionBackground":"#2C313A",
+		"list.activeSelectionForeground":"#D7DAE0",
+		"list.focusBackground":"#2C313A",
+		"list.hoverBackground":"#2C313A66",
+		"list.highlightForeground":"#D7DAE0",
+		"list.inactiveSelectionBackground":"#2C313A",
+		"list.inactiveSelectionForeground":"#D7DAE0",
+		"pickerGroup.border":"#528BFF",
+		"scrollbarSlider.background":"#4E566680",
+		"scrollbarSlider.activeBackground":"#747D9180",
+		"scrollbarSlider.hoverBackground":"#5A637580",
+		//"sideBar.background":"#21252B",
+		"sideBarSectionHeader.background":"#333842",
+		"statusBar.background":"#21252B",
+		"statusBar.foreground":"#9DA5B4",
+		"statusBarItem.hoverBackground":"#2C313A",
+		"statusBar.noFolderBackground":"#252526",
+		//"tab.activeBackground":"#282C34",
+		"tab.activeForeground":"#D7DAE0",
+		"tab.border":"#181A1F",
+		//"tab.inactiveBackground":"#21252B",
+		//"titleBar.activeBackground":"#21252B",
+		"titleBar.activeForeground":"#9DA5B4",
+		//"titleBar.inactiveBackground":"#21252B",
+		"titleBar.inactiveForeground":"#9DA5B4",
+		"statusBar.debuggingForeground":"#FFFFFF",
+		"extensionButton.prominentBackground":"#2BA143",
+		"extensionButton.prominentHoverBackground":"#37AF4E",
+		"badge.background":"#528BFF",
+		"badge.foreground":"#D7DAE0",
+		"peekView.border":"#528BFF",
+		//"peekViewResult.background":"#21252B",
+		"peekViewResult.selectionBackground":"#2C313A",
+		"peekViewTitle.background":"#1B1D23",
+		"peekViewEditor.background":"#1B1D23"
+
+
+
 	},
 	"tokenColors": [
 		{
@@ -17,7 +92,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#6cb04d"
 			}
 		},
 		{
@@ -50,20 +125,30 @@
 			}
 		},
 		{
-			"name": "Keyword, Storage",
+			"name": "Storage",
 			"scope": [
-				"keyword",
-				"storage.type",
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#569CD6"
+			}
+		},
+
+		{
+			"name": "Storage Type",
+			"scope": [
+				"storage.type"
+			],
+			"settings": {
+				"foreground": "#D4D4D4"
 			}
 		},
 		{
 			"name": "Operator, Misc",
 			"scope": [
-				"keyword.control",
+				"keyword.operator.arithmetic",
+				"keyword.operator.assignment",
+				"keyword.operator.logical",
 				"constant.other.color",
 				"punctuation",
 				"meta.tag",
@@ -77,7 +162,26 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#d4d4d4"
+			}
+		},
+		{
+			"name": "Quotes",
+			"scope": [
+				"punctuation.definition.string.begin",
+				"punctuation.definition.string.end",
+			],
+			"settings": {
+				"foreground": "#ff6b6b"
+			}
+		},
+		{
+			"name": "If and Return",
+			"scope": [
+				"keyword.control"
+			],
+			"settings": {
+				"foreground": "#569CD6"
 			}
 		},
 		{
@@ -101,7 +205,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#D4D4D4"
 			}
 		},
 		{
@@ -126,6 +230,7 @@
 		{
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
+				"string",
 				"constant.numeric",
 				"constant.language",
 				"support.constant",
@@ -136,13 +241,29 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#ff6b6b"
 			}
 		},
+
 		{
-			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"name": "Var, Class, Get, Set, etc",
 			"scope": [
-				"string",
+				"support.constant",
+				"constant.character",
+				"constant.escape",
+				"variable.parameter",
+				"keyword.other.unit",
+				"keyword.other"
+			],
+			"settings": {
+				"foreground": "#569CD6"
+			}
+		},
+
+
+		{
+			"name": "Symbols, Inherited Class, Markup Heading",
+			"scope": [
 				"constant.other.symbol",
 				"constant.other.key",
 				"entity.other.inherited-class",
@@ -151,7 +272,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#D4D4D4"
 			}
 		},
 		{
@@ -167,7 +288,16 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#D4D4D4"
+			}
+		},
+		{
+			"name": "Type Names",
+			"scope": [
+				"entity.name.type"
+			],
+			"settings": {
+				"foreground": "#C792EA"
 			}
 		},
 		{
@@ -305,7 +435,7 @@
 				"string.regexp"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#D4D4D4"
 			}
 		},
 		{
@@ -314,7 +444,7 @@
 				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#D4D4D4"
 			}
 		},
 		{
