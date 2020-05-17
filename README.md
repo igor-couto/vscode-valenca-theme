@@ -1,13 +1,31 @@
 # Valenca Theme
 
-An modern dark theme for Visual Studio Code.
+An dark theme for Visual Studio Code inspired on default Dark+ and Atom's One Dark theme. Do you think the default Visual Studio Code theme is good but lacking indicative colors? Confused by the huge amount of colors on Atom? Follow the middle way with Valenca.
 
-### Installing
-* This extension will be available for free in the Visual Studio Code Marketplace in the future. WIP
+The theme follows the premise:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;![](https://via.placeholder.com/15/569CD6/000000?text=+) Reserved words in blue<br>
+&nbsp;&nbsp;&nbsp;&nbsp;![](https://via.placeholder.com/15/FF6B6B/000000?text=+) Primitive types in red<br>
+&nbsp;&nbsp;&nbsp;&nbsp;![](https://via.placeholder.com/15/C792EA/000000?text=+) Types in purple<br>
+&nbsp;&nbsp;&nbsp;&nbsp;![](https://via.placeholder.com/15/6CB04D/000000?text=+) Comments are green<br>
+&nbsp;&nbsp;&nbsp;&nbsp;![](https://via.placeholder.com/15/F5F5F5/000000?text=+) The rest is white<br>
+
+For those who believe that simplicity is the ultimate degree of sophistication, let Valenca guide your eyes during a pleasant coding session.
+
+## Installing
+* This extension will be available for free in the Visual Studio Code Marketplace in the future.
 * To start using the theme, copy it into the `<user home>/.vscode/extensions` folder and restart Visual Studio Code
 
-### Author
+## Feedback
+
+* [File an issue](https://github.com/igor-couto/vscode-valenca-theme/issues)
+
+## License
+
+Licensed under the [MIT](LICENSE) license.
+
+## Author
 
 * **Igor Couto** - [igor.fcouto@gmail.com](mailto:igor.fcouto@gmail.com)
+
 
 **Enjoy!**
