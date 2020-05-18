@@ -198,16 +198,25 @@
 			}
 		},
 		{
-			"name": "Function, Special Method",
+			"name": "Special Method",
 			"scope": [
-				"entity.name.function",
+				
 				"meta.function-call",
 				"variable.function",
 				"support.function",
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#D4D4D4"
+				"foreground": "#61AFEF"
+			}
+		},
+		{
+			"name": "Function",
+			"scope": [
+				"entity.name.function",
+			],
+			"settings": {
+				"foreground": "#E5C07B"
 			}
 		},
 		{
@@ -268,8 +277,6 @@
 				"foreground": "#569CD6"
 			}
 		},
-
-
 		{
 			"name": "Symbols, Inherited Class, Markup Heading",
 			"scope": [
