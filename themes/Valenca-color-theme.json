@@ -15,6 +15,11 @@
 
 		"activityBar.background":"#333842",
 		"activityBar.foreground":"#D7DAE0",
+
+		"terminal.background" : "#1E1E1E",
+		"terminalCursor.foreground" : "#6ea3ff",
+
+
 		"activityBarBadge.foreground":"#D7DAE0",
 		"button.background":"#4D78CC",
 		"button.foreground":"#FFFFFF",
@@ -25,7 +30,7 @@
 		"editorIndentGuide.activeBackground":"#626772",
 		"editor.lineHighlightBackground":"#99BBFF0A",
 		"editor.selectionBackground":"#3E4451",
-		"editorCursor.foreground":"#528BFF",
+		"editorCursor.foreground":"#6ea3ff",
 		"editor.findMatchHighlightBackground":"#528BFF3D",
 		"editorGroup.border":"#181A1F",
 		//"editorGroupHeader.tabsBackground":"#21252B",
@@ -79,9 +84,6 @@
 		"peekViewResult.selectionBackground":"#2C313A",
 		"peekViewTitle.background":"#1B1D23",
 		"peekViewEditor.background":"#1B1D23"
-
-
-
 	},
 	"tokenColors": [
 		{
@@ -209,6 +211,15 @@
 			}
 		},
 		{
+			"name": "Classes",
+			"scope": [
+				"entity.name.type.class",
+			],
+			"settings": {
+				"foreground": "#C792EA"
+			}
+		},
+		{
 			"name": "Block Level Variables",
 			"scope": [
 				"meta.block variable.other"
@@ -290,12 +301,12 @@
 			}
 		},
 		{
-			"name": "Type Names",
+			"name": "Type Names", // namespaces
 			"scope": [
 				"entity.name.type"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#d4d4d4"
 			}
 		},
 		{
@@ -565,7 +576,7 @@
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#D4D4D4"
 			}
 		},
 		{
@@ -594,7 +605,7 @@
 				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#569CD6"
 			}
 		},
 		{
@@ -640,7 +651,7 @@
 			],
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#F78C6C"
+				"foreground": "#FF6B6B"
 			}
 		},
 		{
@@ -667,7 +678,7 @@
 				"string.other.link.title.markdown"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#FF6B6B"
 			}
 		},
 		{
@@ -762,6 +773,15 @@
 			"settings": {
 				"foreground": "#569CD6"
 			}
-		}
+		},
+		{
+			"name": "Namespace",
+			"scope": [
+				"entity.name.namespace"
+			],
+			"settings": {
+				"foreground": "#d4d4d4"
+			}
+		},
 	]
 }
