@@ -17,7 +17,7 @@ For those who believe that simplicity is the ultimate degree of sophistication, 
 
 ## Installing
 * This extension will be available for free in the Visual Studio Code Marketplace in the future.
-* To start using the theme, copy it into the `<user home>/.vscode/extensions` folder and restart Visual Studio Code
+* To start using Valenca, copy it into the `<user home>/.vscode/extensions` folder and restart Visual Studio Code. Then open VS Code and go to `File>Preferences>Color Theme` and select Valenca.
 
 ## Feedback
 
