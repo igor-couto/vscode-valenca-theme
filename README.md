@@ -1,4 +1,6 @@
-# Valenca Theme
+ <img align="left" width="116" height="116" src="icon.png" />
+ 
+ # Valenca Theme
 
 An dark theme for Visual Studio Code inspired on default Dark+ and Atom's One Dark theme. Do you think the default Visual Studio Code theme is good but lacking indicative colors? Confused by the huge amount of colors on Atom? Follow the middle way with Valenca.
 
@@ -14,14 +16,14 @@ For those who believe that simplicity is the ultimate degree of sophistication, 
 
 ![](preview.png)
 
-
 ## Installing
 * This extension will be available for free in the Visual Studio Code Marketplace in the future.
 * To start using Valenca, copy it into the `<user home>/.vscode/extensions` folder and restart Visual Studio Code. Then open VS Code and go to `File>Preferences>Color Theme` and select Valenca.
 
 ## Feedback
 
-* [File an issue](https://github.com/igor-couto/vscode-valenca-theme/issues)
+* Working in progress. There are still some adjustments to suport javascript.
+* If you are having problems, please let me know by [filing an issue](https://github.com/igor-couto/vscode-valenca-theme/issues)
 
 ## License
 
