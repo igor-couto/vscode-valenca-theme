@@ -2,7 +2,7 @@
  
  # Valenca Theme
 
-An dark theme for Visual Studio Code inspired on default Dark+ and Atom's One Dark theme. Do you think the default Visual Studio Code theme is good but lacking indicative colors? Confused by the huge amount of colors on Atom? Follow the middle way with Valenca.
+A dark theme for Visual Studio Code inspired on default Dark+ and Atom's One Dark theme. Do you think the default Visual Studio Code theme is good but lacking indicative colors? Confused by the huge amount of colors on Atom? Follow the middle way with Valenca.
 
 The theme follows:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;![](https://via.placeholder.com/15/569CD6/000000?text=+) Reserved words in blue<br>
