@@ -22,7 +22,7 @@ For those who believe that simplicity is the ultimate degree of sophistication, 
 
 ## Feedback
 
-* Working in progress. There are still some adjustments to suport javascript.
+* Working in progress. There are still some adjustments to be made to suport lenguages like Javascript for instance
 * If you are having problems, please let me know by [filing an issue](https://github.com/igor-couto/vscode-valenca-theme/issues)
 
 ## License
