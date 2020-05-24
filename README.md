@@ -1,7 +1,7 @@
  <img align="left" width="116" height="116" src="icon.png" />
  
- # Valenca Theme
-
+ # Valenca Theme [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
+ 
 A dark theme for Visual Studio Code inspired on default Dark+ and Atom's One Dark theme. Do you think the default Visual Studio Code theme is good but lacking indicative colors? Confused by the huge amount of colors on Atom? Follow the middle way with Valenca.
 
 The theme follows:<br>
@@ -30,6 +30,7 @@ For those who believe that simplicity is the ultimate degree of sophistication, 
 Licensed under the [MIT](LICENSE) license.
 
 ## Author
+
 
 * **Igor Couto** - [igor.fcouto@gmail.com](mailto:igor.fcouto@gmail.com)
 
