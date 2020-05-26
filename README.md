@@ -4,13 +4,13 @@
  
 A dark theme for Visual Studio Code inspired on default Dark+ and Atom's One Dark theme. Do you think the default Visual Studio Code theme is good but lacking indicative colors? Confused by the huge amount of colors on Atom? Follow the middle way with Valenca.
 
-The theme follows:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;![](https://via.placeholder.com/15/569CD6/000000?text=+) Reserved words in blue<br>
-&nbsp;&nbsp;&nbsp;&nbsp;![](https://via.placeholder.com/15/FF6B6B/000000?text=+) Primitive types in red<br>
-&nbsp;&nbsp;&nbsp;&nbsp;![](https://via.placeholder.com/15/C792EA/000000?text=+) Types in purple<br>
-&nbsp;&nbsp;&nbsp;&nbsp;![](https://via.placeholder.com/15/6CB04D/000000?text=+) Comments are green<br>
-&nbsp;&nbsp;&nbsp;&nbsp;![](https://via.placeholder.com/15/E5C07B/000000?text=+) Functions are yellow<br>
-&nbsp;&nbsp;&nbsp;&nbsp;![](https://via.placeholder.com/15/F5F5F5/000000?text=+) The rest is white<br>
+The color pallete rule:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;![](https://via.placeholder.com/15/569CD6/000000?text=+) Reserved words - Blue <sub>Havelock Blue</sub><br>
+&nbsp;&nbsp;&nbsp;&nbsp;![](https://via.placeholder.com/15/FF6B6B/000000?text=+) Primitive types - Red <sub>Bittersweet</sub><br>
+&nbsp;&nbsp;&nbsp;&nbsp;![](https://via.placeholder.com/15/C792EA/000000?text=+) Types - Purple <sub>Biloba Flower</sub><br>
+&nbsp;&nbsp;&nbsp;&nbsp;![](https://via.placeholder.com/15/6CB04D/000000?text=+) Comments - Green <sub>Chelsea Cucumber</sub><br>
+&nbsp;&nbsp;&nbsp;&nbsp;![](https://via.placeholder.com/15/E5C07B/000000?text=+) Functions - Yellow <sub>Harvest Gold</sub><br>
+&nbsp;&nbsp;&nbsp;&nbsp;![](https://via.placeholder.com/15/F5F5F5/000000?text=+) All the rest - White <sub>Wild Sand</sub><br>
 
 For those who believe that simplicity is the ultimate degree of sophistication, let Valenca guide your eyes during a pleasant coding session.
 
