@@ -115,7 +115,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#D4D4D4"
 			}
 		},
 		{
@@ -180,6 +180,15 @@
 			}
 		},
 		{
+			"name": "Types",
+			"scope": [
+				"keyword.type"
+			],
+			"settings": {
+				"foreground": "#569CD6"
+			}
+		},
+		{
 			"name": "If and Return",
 			"scope": [
 				"keyword.control"
@@ -233,20 +242,12 @@
 		{
 			"name": "Block Level Variables",
 			"scope": [
-				"meta.block variable.other"
-			],
-			"settings": {
-				"foreground": "#f07178"
-			}
-		},
-		{
-			"name": "Other Variable, String Link",
-			"scope": [
+				"meta.block variable.other",
 				"support.other.variable",
-				"string.other.link"
+				"string.other.link"				// Links
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#F07178"
 			}
 		},
 		{
@@ -261,7 +262,7 @@
 				"variable.parameter"
 			],
 			"settings": {
-				"foreground": "#ff6b6b"
+				"foreground": "#FF6B6B"
 			}
 		},
 
@@ -287,15 +288,6 @@
 				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
-			],
-			"settings": {
-				"foreground": "#D4D4D4"
-			}
-		},
-		{
-			"name": "Class, Support",
-			"scope": [
 				"entity.name",
 				"support.type",
 				"support.class",
@@ -303,19 +295,13 @@
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
-				"support.type.sys-types"
+				"support.type.sys-types",
+				"entity.name.type",					 // namespaces
+				"entity.name.namespace", // namespace
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
 			],
 			"settings": {
 				"foreground": "#D4D4D4"
-			}
-		},
-		{
-			"name": "Type Names", // namespaces
-			"scope": [
-				"entity.name.type"
-			],
-			"settings": {
-				"foreground": "#d4d4d4"
 			}
 		},
 		{
@@ -342,43 +328,27 @@
 			}
 		},
 		{
-			"name": "Sub-methods",
+			"name": "Language methods, Sub-method",
 			"scope": [
+				"variable.language",
 				"entity.name.module.js",
 				"variable.import.parameter.js",
 				"variable.other.class.js"
 			],
 			"settings": {
-				"foreground": "#FF5370"
-			}
-		},
-		{
-			"name": "Language methods",
-			"scope": [
-				"variable.language"
-			],
-			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#FF5370"
 			}
 		},
 		{
-			"name": "entity.name.method.js",
+			"name": "entity.name.method.js, meta.method.js",
 			"scope": [
-				"entity.name.method.js"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#82AAFF"
-			}
-		},
-		{
-			"name": "meta.method.js",
-			"scope": [
+				"entity.name.method.js",
 				"meta.class-method.js entity.name.function.js",
 				"variable.function.constructor"
 			],
 			"settings": {
+				"fontStyle": "italic",
 				"foreground": "#82AAFF"
 			}
 		},
@@ -506,6 +476,11 @@
 				"foreground": "#98C379"
 			}
 		},
+
+
+		// *** Markdown and Markup  *** 
+
+
 		{
 			"name": "Markdown - Plain",
 			"scope": [
@@ -701,24 +676,6 @@
 			"settings": {
 				"foreground": "#EEFFFF"
 			}
-		},
-		{
-			"name": "Types",
-			"scope": [
-				"keyword.type"
-			],
-			"settings": {
-				"foreground": "#569CD6"
-			}
-		},
-		{
-			"name": "Namespace",
-			"scope": [
-				"entity.name.namespace"
-			],
-			"settings": {
-				"foreground": "#d4d4d4"
-			}
-		},
+		}
 	]
 }
