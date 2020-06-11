@@ -129,7 +129,7 @@
 			}
 		},
 		{
-			"name": "Variables, Operators, Misc, Symbols, Inherited Class, Markup Heading",
+			"name": "Variables, Operators, Misc, Symbols, Inherited Class, Markup Heading, Escape Characters, Regular Expressions",
 			"scope": [
 				"variable",
 				"string constant.other.placeholder",
@@ -164,6 +164,8 @@
 				"entity.name.type",					 // namespaces
 				"entity.name.namespace",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+				"constant.character.escape",
+				"string.regexp"
 			],
 			"settings": {
 				"foreground": "#D4D4D4"
@@ -180,24 +182,20 @@
 			}
 		},
 		{
-			"name": "Types, Storage, If and Return",
+			"name": "Types, Storage, If and Return, Var, Class, Get, Set, etc",
 			"scope": [
 				"storage.modifier",
 				"keyword.type",
-				"keyword.control"
+				"keyword.control",
+				"support.constant",
+				"constant.character",
+				"constant.escape",
+				"variable.parameter",
+				"keyword.other.unit",
+				"keyword.other"
 			],
 			"settings": {
 				"foreground": "#569CD6"
-			}
-		},
-		{
-			"name": "Quotes",
-			"scope": [
-				"punctuation.definition.string.begin",
-				"punctuation.definition.string.end",
-			],
-			"settings": {
-				"foreground": "#FF6B6B"
 			}
 		},
 		{
@@ -236,7 +234,7 @@
 			}
 		},
 		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded, Quotes",
 			"scope": [
 				"string",
 				"constant.numeric",
@@ -244,25 +242,12 @@
 				"support.constant",
 				"constant.character",
 				"constant.escape",
-				"variable.parameter"
+				"variable.parameter",
+				"punctuation.definition.string.begin", // quotes
+				"punctuation.definition.string.end",	// quotes
 			],
 			"settings": {
 				"foreground": "#FF6B6B"
-			}
-		},
-
-		{
-			"name": "Var, Class, Get, Set, etc",
-			"scope": [
-				"support.constant",
-				"constant.character",
-				"constant.escape",
-				"variable.parameter",
-				"keyword.other.unit",
-				"keyword.other"
-			],
-			"settings": {
-				"foreground": "#569CD6"
 			}
 		},
 		{
@@ -309,16 +294,6 @@
 			}
 		},
 		{
-			"name": "Escape Characters, Regular Expressions",
-			"scope": [
-				"constant.character.escape",
-				"string.regexp"
-			],
-			"settings": {
-				"foreground": "#D4D4D4"
-			}
-		},
-		{
 			"name": "Decorators",
 			"scope": [
 				"tag.decorator.js entity.name.tag.js",
@@ -341,7 +316,7 @@
 		},
 
 
-		// *** HTML and CSS 
+		// *** HTML and CSS ***
 
 
 		{
