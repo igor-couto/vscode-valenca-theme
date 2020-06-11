@@ -120,9 +120,10 @@
 			}
 		},
 		{
-			"name": "Classes",
+			"name": "Classes, Attributes",
 			"scope": [
 				"entity.name.type.class",
+				"entity.other.attribute-name"
 			],
 			"settings": {
 				"foreground": "#C792EA"
@@ -282,15 +283,6 @@
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#82AAFF"
-			}
-		},
-		{
-			"name": "Attributes",
-			"scope": [
-				"entity.other.attribute-name"
-			],
-			"settings": {
-				"foreground": "#C792EA"
 			}
 		},
 		{
