@@ -89,17 +89,6 @@
 	},
 	"tokenColors": [
 		{
-			"name": "Comment",
-			"scope": [
-				"comment",
-				"punctuation.definition.comment"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#6cb04d"
-			}
-		},
-		{
 			"name": "URL",
 			"scope": [
 				"*url*",
@@ -108,6 +97,17 @@
 			],
 			"settings": {
 				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#6cb04d"
 			}
 		},
 		{
@@ -123,7 +123,6 @@
 			"name": "Classes, Attributes",
 			"scope": [
 				"entity.name.type.class",
-				"entity.other.attribute-name"
 			],
 			"settings": {
 				"foreground": "#C792EA"
@@ -132,41 +131,41 @@
 		{
 			"name": "Variables, Operators, Misc, Symbols, Inherited Class, Markup Heading, Escape Characters, Regular Expressions",
 			"scope": [
-				"variable",
-				"string constant.other.placeholder",
-				"constant.other.color", 		
-				"storage.type",
+				"constant.character.escape",
+				"constant.other.color", 
+				"constant.other.symbol",
+				"constant.other.key",
+				"entity.name",
+				"entity.name.type",					 // namespaces
+				"entity.name.namespace",
+				"entity.other.inherited-class",
 				"keyword.operator.arithmetic",
 				"keyword.operator.assignment",
 				"keyword.operator.logical",
-				"punctuation",
+				"keyword.other.template",
+				"keyword.other.substitution",
 				"meta.tag",
+				"markup.heading",
+				"markup.inserted.git_gutter",
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+				"meta.use.php",
+				"markup.changed.git_gutter",
+				"punctuation",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution",
-				"constant.other.symbol",
-				"constant.other.key",
-				"entity.other.inherited-class",
-				"markup.heading",
-				"markup.inserted.git_gutter",
-				"entity.name",
 				"support.type",
 				"support.class",
 				"support.orther.namespace.use.php",
-				"meta.use.php",
 				"support.other.namespace.php",
-				"markup.changed.git_gutter",
 				"support.type.sys-types",
-				"entity.name.type",					 // namespaces
-				"entity.name.namespace",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
-				"constant.character.escape",
-				"string.regexp"
+				"string constant.other.placeholder",
+				"storage.type",
+				"string.regexp",
+				"variable",
 			],
 			"settings": {
 				"foreground": "#D4D4D4"
@@ -179,7 +178,42 @@
 				"invalid.illegal"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#ff4765"
+			}
+		},
+		{
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded, Quotes, Block Level Variables",
+			"scope": [
+				"string",
+				"constant.numeric",
+				"constant.language",
+				"support.constant",
+				"constant.character",
+				"constant.escape",
+				"variable.parameter",
+				"punctuation.definition.string.begin", // quotes
+				"punctuation.definition.string.end",	// quotes
+				"meta.block variable.other",	// Block level variables
+				"support.other.variable",		// Block level variables
+				"string.other.link"				// Links
+			],
+			"settings": {
+				"foreground": "#FF6B6B"
+			}
+		},
+		{
+			"name": "Language methods, Sub-method, ES7 Bind Operator",
+			"scope": [
+				"variable.language",
+				"entity.name.module.js",
+				"variable.import.parameter.js",
+				"variable.other.class.js",
+				"source.js constant.other.object.key.js string.unquoted.label.js" // ES7 Bind Operator
+
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#FF6B6B"
 			}
 		},
 		{
@@ -200,17 +234,6 @@
 			}
 		},
 		{
-			"name": "Tag",
-			"scope": [
-				"entity.name.tag",
-				"meta.tag.sgml",
-				"markup.deleted.git_gutter"
-			],
-			"settings": {
-				"foreground": "#F07178"
-			}
-		},
-		{
 			"name": "Special Method",
 			"scope": [
 				
@@ -224,53 +247,12 @@
 			}
 		},
 		{
-			"name": "Block Level Variables",
-			"scope": [
-				"meta.block variable.other",
-				"support.other.variable",
-				"string.other.link"				// Links
-			],
-			"settings": {
-				"foreground": "#F07178"
-			}
-		},
-		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded, Quotes",
-			"scope": [
-				"string",
-				"constant.numeric",
-				"constant.language",
-				"support.constant",
-				"constant.character",
-				"constant.escape",
-				"variable.parameter",
-				"punctuation.definition.string.begin", // quotes
-				"punctuation.definition.string.end",	// quotes
-			],
-			"settings": {
-				"foreground": "#FF6B6B"
-			}
-		},
-		{
 			"name": "Entity Types",
 			"scope": [
 				"support.type"
 			],
 			"settings": {
 				"foreground": "#B2CCD6"
-			}
-		},
-		{
-			"name": "Language methods, Sub-method",
-			"scope": [
-				"variable.language",
-				"entity.name.module.js",
-				"variable.import.parameter.js",
-				"variable.other.class.js"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#FF5370"
 			}
 		},
 		{
@@ -296,21 +278,21 @@
 				"foreground": "#82AAFF"
 			}
 		},
-		{
-			"name": "ES7 Bind Operator",
-			"scope": [
-				"source.js constant.other.object.key.js string.unquoted.label.js"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#FF5370"
-			}
-		},
 
 
 		// *** HTML and CSS ***
 
-
+		{
+			"name": "Tag",
+			"scope": [
+				"entity.name.tag",
+				"meta.tag.sgml",
+				"markup.deleted.git_gutter"
+			],
+			"settings": {
+				"foreground": "#569CD6"
+			}
+		},
 		{
 			"name": "HTML Attributes",
 			"scope": [
@@ -360,12 +342,12 @@
 
 
 		{
-			"name": "JSON Key - Level 0",
+			"name": "JSON Key - Any Level",
 			"scope": [
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#98C379"
+				"foreground": "#61AFEF"
 			}
 		},
 
