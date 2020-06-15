@@ -279,7 +279,9 @@
 			"scope": [
 				"entity.name.tag",
 				"meta.tag.sgml",
-				"markup.deleted.git_gutter"
+				"markup.deleted.git_gutter",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html"
 			],
 			"settings": {
 				"foreground": "#569CD6"
@@ -289,7 +291,8 @@
 			"name": "HTML Attributes",
 			"scope": [
 				"text.html.basic entity.other.attribute-name.html",
-				"text.html.basic entity.other.attribute-name"
+				"text.html.basic entity.other.attribute-name",
+				"entity.other.attribute-name.html",
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -297,12 +300,42 @@
 			}
 		},
 		{
-			"name": "CSS Classes",
+			"name": "CSS Definitions",
 			"scope": [
-				"entity.other.attribute-name.class"
+				"entity.other.attribute-name.class",
+				"entity.other.attribute-name.id.css",
+				"entity.name.tag.css",
+				"meta.selector.css",
+				"keyword.control.at-rule.font-face.css",
+				"meta.at-rule.font-face.css",
+				"punctuation.definition.entity.css",
+				"punctuation.definition.keyword.css"
 			],
 			"settings": {
 				"foreground": "#FFCB6B"
+			}
+		},
+		{
+			"name": "CSS Values",
+			"scope": [
+				"meta.property-value.css",
+				"support.constant.property-value.css",
+				"keyword.other.unit.em.css",
+				"constant.numeric.css",
+				"meta.property-list.css",
+				"keyword.other.unit.px.css",
+				"keyword.other.unit.percentage.css",
+				"support.function.url.css",
+				"support.function.misc.css",
+				"string.quoted.single.css",
+				"punctuation.definition.string.begin.css",
+				"punctuation.definition.string.end.css",
+				"support.constant.font-name.css",
+				"variable.parameter.url.css",
+				"string.quoted.double.css"
+			],
+			"settings": {
+				"foreground": "#D4D4D4",
 			}
 		},
 		{
