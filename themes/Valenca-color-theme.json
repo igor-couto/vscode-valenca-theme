@@ -168,7 +168,7 @@
 				"variable",
 			],
 			"settings": {
-				"foreground": "#D4D4D4"
+				"foreground": "#D4D4D4" // #B2CCD6"
 			}
 		},
 		{
@@ -191,11 +191,11 @@
 				"constant.character",
 				"constant.escape",
 				"variable.parameter",
-				"punctuation.definition.string.begin", // quotes
+				"punctuation.definition.string.begin", 	// quotes
 				"punctuation.definition.string.end",	// quotes
-				"meta.block variable.other",	// Block level variables
-				"support.other.variable",		// Block level variables
-				"string.other.link"				// Links
+				"meta.block variable.other",			// Block level variables
+				"support.other.variable",				// Block level variables
+				"string.other.link"						// Links
 			],
 			"settings": {
 				"foreground": "#FF6B6B"
@@ -219,6 +219,7 @@
 		{
 			"name": "Types, Storage, If and Return, Var, Class, Get, Set, etc",
 			"scope": [
+				"support.type", // Entity Types
 				"storage.modifier",
 				"keyword.type",
 				"keyword.control",
@@ -244,15 +245,6 @@
 			],
 			"settings": {
 				"foreground": "#61AFEF"
-			}
-		},
-		{
-			"name": "Entity Types",
-			"scope": [
-				"support.type"
-			],
-			"settings": {
-				"foreground": "#B2CCD6"
 			}
 		},
 		{
@@ -319,7 +311,7 @@
 				"source.sass keyword.control"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#FFCB6B"
 			}
 		},
 		{
@@ -333,7 +325,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#569CD6"
 			}
 		},
 
@@ -354,6 +346,7 @@
 
 		// *** Markdown and Markup  *** 
 
+		
 		{
 			"name": "Inserted",
 			"scope": [
