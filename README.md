@@ -19,8 +19,11 @@ For those who believe that simplicity is the ultimate degree of sophistication, 
 ![](preview.png)
 
 ## Installing
-* This extension is available for free at Visual Studio Code Marketplace: https://marketplace.visualstudio.com/items?itemName=igor-couto.valenca-theme
-* alternatively, you can install directly from this source code. Copy it into the `<user home>/.vscode/extensions` folder and restart Visual Studio Code. Then open VS Code and go to `File>Preferences>Color Theme` and select Valenca.
+* This extension is available for free at [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=igor-couto.valenca-theme)
+* Alternatively, you can install directly from this source code. Copy it into the `<user home>/.vscode/extensions` folder and restart Visual Studio Code.
+
+## Usage
+Once it was intalled, open VS Code and go to `File>Preferences>Color Theme` and select Valenca.
 
 ## Feedback
 
