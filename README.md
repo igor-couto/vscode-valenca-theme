@@ -1,9 +1,7 @@
  <img align="left" width="116" height="116" src="icon.png" />
  
  # Valenca Theme 
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/igor-couto/vscode-valenca-theme/blob/master/LICENSE) [![GitHub](https://flat.badgen.net/github/release/igor-couto/vscode-valenca-theme)](https://github.com/igor-couto/vscode-valenca-theme/releases)
- 
- ![aaa](https://flat.badgen.net/github/commits/igor-couto/vscode-valenca-theme)
+[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/) [![Marketplace](https://vsmarketplacebadge.apphb.com/version/igor-couto.valenca-theme.svg)](https://marketplace.visualstudio.com/items?itemName=igor-couto.valenca-theme) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/igor-couto/vscode-valenca-theme/blob/master/LICENSE) [![GitHub](https://flat.badgen.net/github/release/igor-couto/vscode-valenca-theme)](https://github.com/igor-couto/vscode-valenca-theme/releases)
  
 A dark theme for Visual Studio Code inspired on default Dark+ and Atom's One Dark theme. Do you think the default Visual Studio Code theme is good but lacking indicative colors? Confused by the huge amount of colors on Atom? Follow the middle way with Valenca.
 
@@ -24,7 +22,7 @@ For those who believe that simplicity is the ultimate degree of sophistication, 
 * Alternatively, you can install directly from this source code. Copy it into the `<user home>/.vscode/extensions` folder and restart Visual Studio Code.
 
 ## Usage
-Once it was intalled, open VS Code and go to `File>Preferences>Color Theme` and select Valenca.
+Once it was intalled, open VS Code and go to `File > Preferences > Color Theme` and select Valenca.
 
 ## Feedback
 
