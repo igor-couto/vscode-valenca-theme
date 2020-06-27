@@ -114,6 +114,7 @@
 			"name": "Function",
 			"scope": [
 				"entity.name.function",
+				"support.function.aggregate.sql"
 			],
 			"settings": {
 				"foreground": "#E5C07B"
@@ -166,6 +167,7 @@
 				"storage.type",
 				"string.regexp",
 				"variable",
+				"entity.name.function.sql"
 			],
 			"settings": {
 				"foreground": "#D4D4D4" // #B2CCD6"
@@ -228,7 +230,9 @@
 				"constant.escape",
 				"variable.parameter",
 				"keyword.other.unit",
-				"keyword.other"
+				"keyword.other",
+				"keyword.other.DML.sql",
+				"keyword.other.DDL.create.II.sql"
 			],
 			"settings": {
 				"foreground": "#569CD6"
