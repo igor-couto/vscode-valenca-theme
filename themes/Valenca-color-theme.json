@@ -114,7 +114,11 @@
 			"name": "Function",
 			"scope": [
 				"entity.name.function",
-				"support.function.aggregate.sql"
+				"support.function.aggregate.sql",
+				"support.function.datetime.sql",
+				"support.function.string.sql",
+				"support.function.metadata.sql"
+				
 			],
 			"settings": {
 				"foreground": "#E5C07B"
