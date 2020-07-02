@@ -3,7 +3,7 @@
     "publisher": "igor-couto",
     "displayName": "Valenca Theme",
     "description": "A dark theme for Visual Studio Code inspired on default Dark+ and Atom's One Dark theme.",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "engines": {
         "vscode": "^1.45.0"
     },
