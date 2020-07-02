@@ -117,8 +117,8 @@
 				"support.function.aggregate.sql",
 				"support.function.datetime.sql",
 				"support.function.string.sql",
-				"support.function.metadata.sql"
-				
+				"support.function.metadata.sql",
+				"support.function.system.sql"
 			],
 			"settings": {
 				"foreground": "#E5C07B"
