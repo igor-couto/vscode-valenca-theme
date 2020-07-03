@@ -181,7 +181,7 @@
 			"name": "Invalid",
 			"scope": [
 				"invalid",
-				"invalid.illegal"
+				"invalid.illegal",
 			],
 			"settings": {
 				"foreground": "#ff4765"
@@ -249,7 +249,7 @@
 				"meta.function-call",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method"
+				"keyword.other.special-method",
 			],
 			"settings": {
 				"foreground": "#61AFEF"
@@ -276,6 +276,70 @@
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#82AAFF"
+			}
+		},
+
+		// *** Log ***
+
+		{
+			"name": "Log Text",
+			"scope": [
+				"constant.language",
+				"log.constant"
+			],
+			"settings": {
+				"foreground": "#D4D4D4"
+			}
+		},
+		{
+			"name": "Log Constants",
+			"scope": [
+				"log.constant",
+			],
+			"settings": {
+				"foreground": "#569CD6"
+			}
+		},
+
+
+		{
+			"name": "Log Info",
+			"scope": [
+				"log.info",
+			],
+			"settings": {
+				"foreground": "#6bbeee",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Log Error",
+			"scope": [
+				"log.error",
+			],
+			"settings": {
+				"foreground": "#fd5b76",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Log Fatal",
+			"scope": [
+				"log.fatal",
+			],
+			"settings": {
+				"foreground": "#700b1c",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Log Warning",
+			"scope": [
+				"log.warning",
+			],
+			"settings": {
+				"foreground": "#E5C07B",
+				"fontStyle": "bold"
 			}
 		},
 
