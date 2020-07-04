@@ -184,7 +184,7 @@
 				"invalid.illegal",
 			],
 			"settings": {
-				"foreground": "#ff4765"
+				"foreground": "#c02c44"
 			}
 		},
 		{
@@ -201,7 +201,11 @@
 				"punctuation.definition.string.end",	// quotes
 				"meta.block variable.other",			// Block level variables
 				"support.other.variable",				// Block level variables
-				"string.other.link"						// Links
+				"string.other.link",					// Links
+				"constant.language.boolean.false.cs",
+				"constant.language.boolean.true.cs",
+				"constant.language.true.cpp",
+				"constant.language.false.cpp"
 			],
 			"settings": {
 				"foreground": "#FF6B6B"
@@ -236,7 +240,10 @@
 				"keyword.other.unit",
 				"keyword.other",
 				"keyword.other.DML.sql",
-				"keyword.other.DDL.create.II.sql"
+				"keyword.other.DDL.create.II.sql",
+				"storage.type.built-in.primitive.cpp",
+				"storage.type.primitive.cpp"
+				
 			],
 			"settings": {
 				"foreground": "#569CD6"
