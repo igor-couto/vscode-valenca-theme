@@ -1,7 +1,8 @@
  <img align="left" width="116" height="116" src="icon.png" />
  
  # Valenca Theme 
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/) [![Marketplace](https://vsmarketplacebadge.apphb.com/version/igor-couto.valenca-theme.svg)](https://marketplace.visualstudio.com/items?itemName=igor-couto.valenca-theme&ssr=false#overview) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/igor-couto/vscode-valenca-theme/blob/master/LICENSE) [![GitHub](https://flat.badgen.net/github/release/igor-couto/vscode-valenca-theme)](https://github.com/igor-couto/vscode-valenca-theme/releases)
+[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/) [![Marketplace](https://vsmarketplacebadge.apphb.com/version/igor-couto.valenca-theme.svg)](https://marketplace.visualstudio.com/items?itemName=igor-couto.valenca-theme&ssr=false#overview) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/igor-couto/vscode-valenca-theme/blob/master/LICENSE) [![GitHub](https://flat.badgen.net/github/release/igor-couto/vscode-valenca-theme)](https://github.com/igor-couto/vscode-valenca-theme/releases) [![Installs](https://vsmarketplacebadge.apphb.com/installs/igor-couto.valenca-theme.svg)](https://marketplace.visualstudio.com/items/igor-couto.valenca-theme)
+
  
 A dark theme for Visual Studio Code inspired on default Dark+ and Atom's One Dark theme. Do you think the default Visual Studio Code theme is good but lacking indicative colors? Confused by the huge amount of colors on Atom? Follow the middle way with Valenca.
 
