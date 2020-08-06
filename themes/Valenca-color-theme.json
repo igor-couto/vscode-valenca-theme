@@ -330,16 +330,6 @@
 			}
 		},
 		{
-			"name": "Log Fatal",
-			"scope": [
-				"log.fatal",
-			],
-			"settings": {
-				"foreground": "#700b1c",
-				"fontStyle": "bold"
-			}
-		},
-		{
 			"name": "Log Warning",
 			"scope": [
 				"log.warning",
