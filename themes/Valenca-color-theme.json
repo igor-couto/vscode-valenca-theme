@@ -351,7 +351,7 @@
 		},
 
 
-		// *** HTML and CSS ***
+		// *** HTML, XML and CSS ***
 
 		{
 			"name": "Tag",
@@ -372,6 +372,7 @@
 				"text.html.basic entity.other.attribute-name.html",
 				"text.html.basic entity.other.attribute-name",
 				"entity.other.attribute-name.html",
+				"entity.other.attribute-name.localname.xml"
 			],
 			"settings": {
 				"fontStyle": "italic",
