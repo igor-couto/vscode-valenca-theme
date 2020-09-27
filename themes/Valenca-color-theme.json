@@ -125,9 +125,11 @@
 			}
 		},
 		{
-			"name": "Classes, Attributes",
+			"name": "Classes, Attributes, Structs",
 			"scope": [
 				"entity.name.type.class",
+				"entity.name.type.struct",
+				"entity.name.type.enum"
 			],
 			"settings": {
 				"foreground": "#C792EA"
