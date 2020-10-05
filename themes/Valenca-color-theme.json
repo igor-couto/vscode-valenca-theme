@@ -244,8 +244,14 @@
 				"keyword.other.DML.sql",
 				"keyword.other.DDL.create.II.sql",
 				"storage.type.built-in.primitive.cpp",
-				"storage.type.primitive.cpp"
-				
+				"storage.type.primitive.cpp",
+				"keyword.query.select.cs",
+				"keyword.query.from.cs",
+				"keyword.query.join.cs",
+				"keyword.query.in.cs",
+				"keyword.query.on.cs",
+				"keyword.query.equals.cs",
+				"keyword.query.where.cs"
 			],
 			"settings": {
 				"foreground": "#569CD6"
