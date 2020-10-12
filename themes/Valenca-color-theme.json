@@ -8,10 +8,9 @@
 		"editor.foreground": "#D4D4D4",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb",
-
 		//"editor.background":"#282C34",
-		"editor.background":"#202021",
 		// "editor.foreground":"#ABB2BF",
+        "editor.background":"#202021",
 		// "activityBarBadge.background":"#528BFF",
 
 		"activityBar.background":"#333842",
@@ -173,7 +172,10 @@
 				"storage.type",
 				"string.regexp",
 				"variable",
-				"entity.name.function.sql"
+				"entity.name.function.sql",
+                "variable.other.readwrite.tsx",
+                "variable.other.readwrite.alias.tsx",
+                "variable.other.object.property.tsx"
 			],
 			"settings": {
 				"foreground": "#D4D4D4" // #B2CCD6"
@@ -207,7 +209,8 @@
 				"constant.language.boolean.false.cs",
 				"constant.language.boolean.true.cs",
 				"constant.language.true.cpp",
-				"constant.language.false.cpp"
+				"constant.language.false.cpp",
+                "constant.language.boolean.true.tsx"
 			],
 			"settings": {
 				"foreground": "#FF6B6B"
@@ -251,7 +254,10 @@
 				"keyword.query.in.cs",
 				"keyword.query.on.cs",
 				"keyword.query.equals.cs",
-				"keyword.query.where.cs"
+				"keyword.query.where.cs",
+                "storage.type.tsx",
+                "storage.type.function.tsx",
+                "keyword.operator.expression.void.tsx"
 			],
 			"settings": {
 				"foreground": "#569CD6"
