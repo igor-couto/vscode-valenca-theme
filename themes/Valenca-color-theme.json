@@ -175,7 +175,14 @@
 				"entity.name.function.sql",
                 "variable.other.readwrite.tsx",
                 "variable.other.readwrite.alias.tsx",
-                "variable.other.object.property.tsx"
+                "variable.other.object.property.tsx",
+                "variable.language.this.js",
+                "variable.language.this.ts",
+                "variable.other.property.js",
+                "variable.other.property.ts",
+                "variable.parameter.ts",
+                "variable.parameter.js",
+                "variable.other.readwrite.js"
 			],
 			"settings": {
 				"foreground": "#D4D4D4" // #B2CCD6"
@@ -257,7 +264,13 @@
 				"keyword.query.where.cs",
                 "storage.type.tsx",
                 "storage.type.function.tsx",
-                "keyword.operator.expression.void.tsx"
+                "keyword.operator.expression.void.tsx",
+                "storage.type.class.ts",
+                "storage.type.class.js",
+                "keyword.operator.new.ts",
+                "keyword.operator.new.js",
+                "storage.type.ts",
+                "storage.type.js"
 			],
 			"settings": {
 				"foreground": "#569CD6"
