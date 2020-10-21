@@ -16,7 +16,8 @@
 		"activityBar.background":"#333842",
 		"activityBar.foreground":"#D7DAE0",
 
-		"terminal.background" : "#1E1E1E",
+        "terminal.background" : "#1E1E1E",
+        "terminal.ansiBrightGreen": "#8ACB12",
 		"terminalCursor.foreground" : "#6ea3ff",
 
 		"activityBarBadge.foreground":"#D7DAE0",
