@@ -16,8 +16,9 @@
 		"activityBar.background":"#333842",
 		"activityBar.foreground":"#D7DAE0",
 
-        "terminal.background" : "#1E1E1E",
-        "terminal.ansiBrightGreen": "#8ACB12",
+		"terminal.background" : "#1E1E1E",
+		"terminal.ansiGreen": "#8ACB12",
+		"terminal.ansiBrightGreen": "#8ACB12",
 		"terminalCursor.foreground" : "#6ea3ff",
 
 		"activityBarBadge.foreground":"#D7DAE0",
@@ -129,7 +130,8 @@
 			"scope": [
 				"entity.name.type.class",
 				"entity.name.type.struct",
-				"entity.name.type.enum"
+                "entity.name.type.enum",
+                "entity.name.type.interface"
 			],
 			"settings": {
 				"foreground": "#C792EA"
@@ -175,15 +177,26 @@
 				"variable",
 				"entity.name.function.sql",
                 "variable.other.readwrite.tsx",
+                "variable.other.readwrite.ts",
+                "variable.other.readwrite.js",
                 "variable.other.readwrite.alias.tsx",
+                "variable.other.readwrite.alias.ts",
+                "variable.other.readwrite.alias.js",
                 "variable.other.object.property.tsx",
-                "variable.language.this.js",
+                "variable.other.object.property.ts",
+                "variable.other.object.property.js",
+                "variable.other.object.ts",
+                "variable.other.object.js",
                 "variable.language.this.ts",
-                "variable.other.property.js",
-                "variable.other.property.ts",
+                "variable.language.this.js",
+                "meta.definition.variable",
+                "meta.definition.variable",
+                "meta.brace.round.ts",
                 "variable.parameter.ts",
                 "variable.parameter.js",
-                "variable.other.readwrite.js"
+                "variable.other.property.ts",
+                "variable.other.property.js",
+                "variable.other.constant.ts"
 			],
 			"settings": {
 				"foreground": "#D4D4D4" // #B2CCD6"
@@ -218,10 +231,13 @@
 				"constant.language.boolean.true.cs",
 				"constant.language.true.cpp",
 				"constant.language.false.cpp",
-                "constant.language.boolean.true.tsx"
+                "constant.language.boolean.true.tsx",
+                "constant.language.null.ts",
+                "constant.language.null.js"
 			],
 			"settings": {
-				"foreground": "#FF6B6B"
+				//"foreground": "#FF6B6B"
+				"foreground": "#01CFFF"
 			}
 		},
 		{
@@ -266,12 +282,10 @@
                 "storage.type.tsx",
                 "storage.type.function.tsx",
                 "keyword.operator.expression.void.tsx",
-                "storage.type.class.ts",
-                "storage.type.class.js",
-                "keyword.operator.new.ts",
-                "keyword.operator.new.js",
                 "storage.type.ts",
-                "storage.type.js"
+                "storage.type.js",
+                "keyword.operator.new.ts",
+                "keyword.operator.new.js"
 			],
 			"settings": {
 				"foreground": "#569CD6"
